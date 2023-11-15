@@ -1,11 +1,14 @@
-import AntD from '../src/components/antd';
-import  ReactPro from './components/reactpro';
-import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
+import AntD from "../src/components/antd";
+import ReactPro from "./components/reactpro";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      <div style={{padding: 20, display: "flex"}}>
+      <div style={{ padding: 20 }}>
+        <div>
+          <Link to="/">Home</Link>
+        </div>
         <nav>
           <ul>
             <li>

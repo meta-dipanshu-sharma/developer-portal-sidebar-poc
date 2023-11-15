@@ -9,13 +9,10 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/type1">Option 1</Link>
+              <Link to="/type1">AntD</Link>
             </li>
             <li>
-              <Link to="/type2">Option 2</Link>
-            </li>
-            <li>
-              <Link to="/type3">Option 3</Link>
+              <Link to="/type2">React pro sidebar</Link>
             </li>
           </ul>
         </nav>
